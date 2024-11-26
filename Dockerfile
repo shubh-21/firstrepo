@@ -1,6 +1,9 @@
 # Step 1: Use a lightweight Python base image
 FROM python:3.9-slim
 
+# Use TensorFlow base image with GPU support
+FROM tensorflow/tensorflow:latest-gpu
+
 # Step 2: Set a working directory inside the container
 WORKDIR /app
 

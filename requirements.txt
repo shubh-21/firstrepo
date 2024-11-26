@@ -1,3 +1,4 @@
+Flask==2.2.2
 pandas==1.5.3  # Compatible with Python 3.9 and TensorFlow's NumPy requirements
 numpy==1.24.3  # Works with TensorFlow and pandas
 scikit-learn==1.2.2  # Compatible with NumPy 1.24.3

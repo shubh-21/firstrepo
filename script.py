@@ -4,10 +4,10 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 # Load the trained model
-model = tf.keras.models.load_model('/content/model.h5')
+model = tf.keras.models.load_model('model.h5')
 
 # Load the dataset
-data = pd.read_csv('/content/dataset.csv')
+data = pd.read_csv('dataset.csv')
 
 # Convert timestamp to datetime (if applicable)
 if 'Timestamp [ms]' in data.columns:
